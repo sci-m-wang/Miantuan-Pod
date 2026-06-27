@@ -1,0 +1,4 @@
+interface:
+  display_name: "Structured Question"
+  short_description: "Ask one focused decision question"
+  default_prompt: "Use $structured-question to ask the next focused decision question."

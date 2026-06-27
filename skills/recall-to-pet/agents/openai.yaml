@@ -1,0 +1,3 @@
+display_name: "Recall To Pet"
+short_description: "Remember an imaginary friend, shape it visually, and hatch it into a Codex pet."
+default_prompt: "Use $recall-to-pet to help me remember an imaginary friend and turn it into a Codex pet."

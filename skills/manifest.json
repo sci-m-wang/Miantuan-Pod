@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "structured-question",
+      "path": "skills/structured-question",
+      "dependencies": [],
+      "optionalTools": ["request_user_input", "question"]
+    },
+    {
+      "name": "recall-imaginary-friend",
+      "path": "skills/recall-imaginary-friend",
+      "dependencies": ["structured-question"],
+      "optionalSkills": ["imagegen"]
+    },
+    {
+      "name": "recall-to-pet",
+      "path": "skills/recall-to-pet",
+      "dependencies": ["structured-question", "recall-imaginary-friend", "hatch-pet"],
+      "optionalSkills": ["imagegen", "github:github", "github:yeet"]
+    }
+  ]
+}

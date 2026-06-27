@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recall Imaginary Friend"
+  short_description: "Recover and visualize imagined companions"
+  default_prompt: "Use $recall-imaginary-friend to help me remember an old imaginary companion."
