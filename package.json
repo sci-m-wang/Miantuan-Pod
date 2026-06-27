@@ -8,8 +8,11 @@
   },
   "files": [
     "bin",
+    "data",
     "docs",
+    "index.html",
     "scripts",
+    "site",
     "skills",
     "README.md"
   ],

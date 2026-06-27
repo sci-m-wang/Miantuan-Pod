@@ -1,0 +1,24 @@
+{
+  "eyebrow": "幻想朋友技能包",
+  "title": "面团 Pod",
+  "intro": "用于回忆幻想朋友、整理清晰档案，并可继续孵化成 Codex pet 的技能包。",
+  "installTitle": "安装",
+  "dependencies": "依赖",
+  "skills": [
+    {
+      "name": "structured-question",
+      "purpose": "一次只问一个聚焦的选择、确认或偏好问题。",
+      "dependencies": "可用时调用平台提问工具"
+    },
+    {
+      "name": "recall-imaginary-friend",
+      "purpose": "引导幻想朋友回忆访谈，并整理审慎的伙伴档案。",
+      "dependencies": "structured-question，可选 imagegen"
+    },
+    {
+      "name": "recall-to-pet",
+      "purpose": "串联回忆、效果图、宠物孵化和可选 gallery 投稿。",
+      "dependencies": "structured-question、recall-imaginary-friend、hatch-pet"
+    }
+  ]
+}

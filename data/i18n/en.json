@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Imaginary companion skill pack",
+  "title": "Miantuan Pod",
+  "intro": "Skills for remembering imaginary companions, shaping them into clear dossiers, and optionally hatching them into Codex pets.",
+  "installTitle": "Install",
+  "dependencies": "Dependencies",
+  "skills": [
+    {
+      "name": "structured-question",
+      "purpose": "Ask one focused decision or preference question at a time.",
+      "dependencies": "platform question tool when available"
+    },
+    {
+      "name": "recall-imaginary-friend",
+      "purpose": "Guide an imaginary-friend recall session and produce a careful companion dossier.",
+      "dependencies": "structured-question, optional imagegen"
+    },
+    {
+      "name": "recall-to-pet",
+      "purpose": "Connect recall, concept art, pet hatching, and optional gallery submission.",
+      "dependencies": "structured-question, recall-imaginary-friend, hatch-pet"
+    }
+  ]
+}

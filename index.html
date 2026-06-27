@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Miantuan Pod</title>
+    <link rel="stylesheet" href="./site/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">Imaginary companion skill pack</p>
+        <h1 data-i18n="title">Miantuan Pod</h1>
+      </div>
+      <div class="language-switch" aria-label="Language">
+        <button class="lang-button is-active" data-lang="en" type="button">EN</button>
+        <button class="lang-button" data-lang="zh-CN" type="button">中文</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p data-i18n="intro">
+          Skills for remembering imaginary companions, shaping them into clear dossiers, and optionally hatching them into Codex pets.
+        </p>
+      </section>
+
+      <section class="panel">
+        <h2 data-i18n="installTitle">Install</h2>
+        <code>git clone https://github.com/sci-m-wang/Miantuan-Pod.git</code>
+        <code>cd Miantuan-Pod</code>
+        <code>node scripts/install.mjs all</code>
+      </section>
+
+      <section class="skills" id="skills"></section>
+    </main>
+
+    <template id="skill-template">
+      <article class="skill-card">
+        <h2></h2>
+        <p class="purpose"></p>
+        <p class="deps"></p>
+      </article>
+    </template>
+
+    <script type="module" src="./site/main.js"></script>
+  </body>
+</html>
